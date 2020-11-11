@@ -1,0 +1,162 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.header img {
+    padding-top: 20px;
+}
+
+.registerarea {
+    height: 460px;
+    /*border: 1px solid #ccc;        */
+}
+
+.registerarea h3 {
+    height: 38px;
+    line-height: 38px;
+    margin-top: 20px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ececec;
+}
+
+.registerarea .login {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea .login a {
+    color: #cb323b;
+}
+
+.register_form {
+    width: 600px;
+    height: 400px;
+    /*border: 1px solid #ccc;*/
+    margin: 20px auto 0;
+}
+
+.register_form li {
+    margin-bottom: 15px;
+}
+
+.register_form label {
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.inp {
+    padding: 2px 5px;
+    width: 228px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.error,
+.succcess {
+    margin-left: 10px;
+    color: #df3033;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    margin-bottom: -3px;
+    width: 24px;
+    height: 24px;
+    background: url(../img/error.png) no-repeat;
+    /*行内元素以及行内块元素垂直居中*/
+    vertical-align: middle;
+}
+
+.success {
+    color: #f79100;
+}
+
+.success_icon {
+    background: url(../img/success.png) no-repeat;
+}
+
+.safe {
+    margin-bottom: 40px;
+    padding-left: 173px;
+    color: #bebebe;
+}
+
+.safe em {
+    padding: 0 12px;
+    margin-left: 1px;
+    color: #fff;
+}
+
+.safe .ruo {
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    margin-top: 40px;
+    padding-left: 120px;
+}
+
+.agree input {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.registered {
+    padding-left: 80px;
+}
+
+.registered input {
+    display: inline-block;
+    padding: 10px 70px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #c81623;
+    cursor: pointer;
+    margin-left: 46px;
+}
+
+.footer {
+    height: 115px;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.footer p {
+    padding-top: 10px;
+}
+
+.footer p a {
+    margin: 10px;
+}
+
+.footer .copyright {
+    line-height: 20px;
+}

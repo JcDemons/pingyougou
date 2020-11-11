@@ -1,0 +1,466 @@
+/* 首页样式 */
+
+.main {
+    margin-left: 219px;
+    margin-top: 10px;
+    width: 981px;
+    height: 455px;
+}
+
+.main .focus {
+    position: relative;
+    width: 720px;
+    height: 454px;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.focus_pic img {
+    width: 720px;
+    height: 454px;
+}
+
+.main .newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.focus .arrow-l,
+.focus .arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "icomoon";
+    background: rgb(0, 0, 0, .2);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    z-index: 9999;
+}
+
+.focus .arrow-l {
+    left: 0;
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.focus .arrow-r {
+    right: 0;
+    text-align: right;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.focus .focus_radius {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.focus .focus_radius li {
+    float: left;
+    margin: 0 10px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    /*background-color: #ccc;*/
+    border: 1px solid rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+.focus .focus_radius .current {
+    background-color: #fff;
+}
+
+.main .news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+
+.news .news-hd {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #ccc;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.news .news-hd .news-more {
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+
+.news .news-bd {
+    padding: 10px 0 0 10px;
+}
+
+.news .news-bd li {
+    height: 23px;
+}
+
+.main .lifeservice {
+    height: 208px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+
+
+/*有时宽不够，添加父级即可*/
+
+.main .lifeservice ul {
+    width: 252px;
+}
+
+.main .lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 69px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/*因为点击整个框框都能进入a标签内，所以a标签有父级的宽高，但是宽高不能继承，
+所以得设置宽高*/
+
+.main .lifeservice a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.main .lifeservice i {
+    display: block;
+    /*父级有宽高，可以直接margin 居中*/
+    margin: 12px auto 6px;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png);
+}
+
+.main .lifeservice .ico1 {
+    background-position: -18px -16px;
+}
+
+.main .lifeservice .ico2 {
+    background-position: -81px -16px;
+}
+
+.main .lifeservice .ico3 {
+    background-position: -142px -16px;
+}
+
+.main .lifeservice .ico4 {
+    background-position: -206px -16px;
+}
+
+.main .lifeservice .ico5 {
+    background-position: -18px -89px;
+}
+
+.main .lifeservice .ico6 {
+    background-position: -80px -89px;
+}
+
+.main .lifeservice .ico7 {
+    background-position: -143px -89px;
+}
+
+.main .lifeservice .ico8 {
+    background-position: -206px -89px;
+}
+
+.main .lifeservice .ico9 {
+    background-position: -18px -160px;
+}
+
+.main .lifeservice .ico10 {
+    background-position: -79px -160px;
+}
+
+.main .lifeservice .ico11 {
+    background-position: -142px -160px;
+}
+
+.main .lifeservice .ico12 {
+    background-position: -206px -160px;
+}
+
+.main .lifeservice li span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 11px;
+    height: 16px;
+    background: url(../img/hot.jpg) no-repeat;
+}
+
+.main .bargain {
+    height: 76px;
+}
+
+
+/*推荐模块*/
+
+.recommend {
+    height: 162px;
+    margin-top: 10px;
+    background: pink;
+}
+
+.recommend .recommend-hd {
+    width: 200px;
+    height: 162px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recommend-hd img {
+    margin: 25px 0 10px 0;
+}
+
+.recommend-hd h3 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.recommend .recommend-bd {
+    width: 1000px;
+    height: 162px;
+    background-color: #ebebeb;
+}
+
+.recommend-bd li {
+    float: left;
+    width: 249px;
+    height: 142px;
+    margin: 10px 0;
+    border-right: 1px solid #ddd;
+}
+
+.recommend-bd li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.recommend-bd li.last {
+    border: none;
+}
+
+
+/*.box 实现代码复用 */
+
+
+/*floor层*/
+
+.box-hd {
+    height: 30px;
+    margin-top: 20px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.box-hd .tab-list {
+    float: right;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list li a {
+    padding: 0 14px;
+}
+
+.box-bd {
+    height: 360px;
+}
+
+.box-bd li {
+    float: left;
+    height: 360px;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.box-bd .w209 li {
+    width: 86px;
+    height: 32px;
+    margin-left: 12px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+}
+
+.box-bd .w209 img {
+    margin-top: 10px;
+}
+
+
+/*css 演示*/
+
+.box-bd img {
+    transition: all .2s;
+}
+
+.box-bd img:hover {
+    margin-top: -10px;
+}
+
+.box-bd li {
+    overflow: hidden;
+}
+
+.w309 {
+    position: relative;
+    width: 329px;
+    /* overflow: hidden; */
+}
+
+.w309 ul.w309-pic {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500%;
+}
+
+.w309 ul.w309-pic img {
+    /* 放任何图片进来都能适用 */
+    width: 329px;
+    height: 100%;
+}
+
+.w309 ul.w309-pic li {
+    float: left;
+}
+
+.w309 h3 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #066c7d;
+    z-index: 999;
+}
+
+.w309 .circle {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+}
+
+.w309 .circle li {
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    background-color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.w309 .circle .circle-style {
+    background-color: skyblue;
+}
+
+.w220 {
+    width: 219px;
+    border-right: 1px solid #ededed;
+}
+
+.w220 .box-con-item {
+    border-bottom: 1px solid #ededed;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ededed;
+}
+
+.fixedtool {
+    display: none;
+    position: fixed;
+    left: 50%;
+    margin-left: -676px;
+    top: 200px;
+    width: 66px;
+}
+
+.fixedtool li {
+    padding: 5px 8px;
+    height: 25px;
+    border-bottom: 1px solid #ccc;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.fixedtool .bg-red {
+    background-color: #c81623;
+    color: #fff;
+}
+
+
+/* 返回顶部模块 */
+
+.goBack {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    width: 45px;
+    height: 45px;
+    background-color: skyblue;
+    opacity: 0.5;
+}
+
+.goBack a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 5px solid #ccc;
+    border-left: none;
+    border-bottom: none;
+    transform: translate(8px, 15px) rotate(-45deg);
+}
+
+.goBack:hover,
+.goBack a:hover {
+    border-color: #fff;
+}

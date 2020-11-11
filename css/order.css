@@ -1,0 +1,149 @@
+.header {
+    height: 80px;
+}
+
+.header img {
+    padding-top: 20px;
+}
+
+input {
+    cursor: pointer;
+}
+
+.order h3 {
+    font-size: 18px;
+    color: #f40;
+    border-bottom: 2px solid #f40;
+}
+
+.order-header {
+    background-color: #f3f3f3;
+    height: 32px;
+    line-height: 32px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.goods-info {
+    height: 110px;
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    border-color: #aaa #f1f1f1 #f1f1f1;
+    margin: 10px 0;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.goods-info-bgc {
+    background-color: #fff4e8;
+}
+
+.order-footer {
+    height: 37px!important;
+    line-height: 37px;
+    /* padding: 5px 0; */
+    text-align: center;
+    background-color: #f3f3f3;
+    margin: 20px 0 20px;
+}
+
+.order-header div,
+.order-body .goods-info div,
+.order-footer div.leftModule {
+    float: left;
+    font-size: 12px;
+}
+
+.order-footer div.rightModule {
+    float: right;
+}
+
+.order-footer div {
+    float: left;
+}
+
+.container .order-header div,
+.order-body .goods-info>div {
+    width: 130px;
+    margin: 0 10px;
+}
+
+.order-body>div {
+    height: 120px;
+}
+
+.container .order-header .goods,
+.container .order-body .p-goods {
+    width: 400px;
+}
+
+.pic {
+    float: left;
+}
+
+.num {
+    width: 50px;
+    height: 16px;
+    text-align: center;
+    cursor: auto;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.p-number a {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.p-number .sub {
+    margin-right: -5px;
+}
+
+.p-number .add {
+    margin-left: -5px;
+}
+
+.content {
+    margin-left: 5px;
+}
+
+.p-number span.num {
+    padding: 0 20px;
+}
+
+.leftModule .checked {
+    width: 120px;
+}
+
+.leftModule div {
+    margin-left: 30px;
+}
+
+.rightModule div {
+    padding: 0 30px;
+}
+
+.leftModule .clear,
+.rightModule i {
+    font-weight: 700;
+}
+
+.rightModule i {
+    color: #f40;
+}
+
+.allPrice {
+    font-size: 16px;
+}
+
+.go {
+    background-color: #f40;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
